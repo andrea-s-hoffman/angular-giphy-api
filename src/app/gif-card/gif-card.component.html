@@ -1,0 +1,3 @@
+<p>{{gifRef.title}}</p>
+<img src="{{gifRef.images.original.url}}" alt="{{gifRef.title}}">
+<button (click)="emitFavoriteEvent(gifRef)" [ngClass]="{'favorite': checkFavorite(gifRef)}">heart</button>

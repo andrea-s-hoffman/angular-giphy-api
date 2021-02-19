@@ -1,0 +1,5 @@
+<form #searchForm="ngForm" (ngSubmit)="emitSearchTerm(searchForm)" >
+    <label for="searchTerm">Search for gifs</label>
+    <input type="text" name="searchTerm" id="searchTerm" ngModel>
+    <button>Search</button>
+</form>
